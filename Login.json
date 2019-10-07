@@ -1,0 +1,88 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "User Logs into the TestMeApp",
+        "description": "",
+        "id": "user-login-functionality;user-logs-into-the-testmeapp;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5677160800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Login page",
+            "match": {
+              "location": "LoginDefinition.user_is_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 372427300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter the \"jesse\" and \"jesse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jesse",
+                  "offset": 16
+                },
+                {
+                  "val": "jesse",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginDefinition.user_enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3208549900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "LoginDefinition.user_clicks_on_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tag"
+          },
+          {
+            "line": 4,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "User Login functionality",
+    "description": "",
+    "id": "user-login-functionality",
+    "keyword": "Feature",
+    "uri": "features/Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]

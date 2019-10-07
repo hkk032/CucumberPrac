@@ -1,0 +1,161 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User registers for TestMeApp",
+        "description": "",
+        "id": "registration-for-testmeapp;user-registers-for-testmeapp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7102058100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on home page",
+            "match": {
+              "location": "RegisterDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2275149100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Signup",
+            "match": {
+              "location": "RegisterDefinition.user_clicks_on_Signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2925269300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enters the \"\u003cusername\u003e\" and \"\u003cfname\u003e\" and \"\u003clname\u003e\" and \"\u003cpass\u003e\" and \"\u003ccpass\u003e\" and \"\u003cgender\u003e\" and \"\u003cemail\u003e\" and \"\u003cmobno\u003e\" and \"\u003cmonth\u003e\" and \"\u003cyear\u003e\" and \"\u003cdate\u003e\" and \"\u003caddress\u003e\" and \"\u003cques\u003e\" and \"\u003cans\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 12
+                },
+                {
+                  "val": "\u003cfname\u003e",
+                  "offset": 29
+                },
+                {
+                  "val": "\u003clname\u003e",
+                  "offset": 43
+                },
+                {
+                  "val": "\u003cpass\u003e",
+                  "offset": 57
+                },
+                {
+                  "val": "\u003ccpass\u003e",
+                  "offset": 70
+                },
+                {
+                  "val": "\u003cgender\u003e",
+                  "offset": 84
+                },
+                {
+                  "val": "\u003cemail\u003e",
+                  "offset": 99
+                },
+                {
+                  "val": "\u003cmobno\u003e",
+                  "offset": 113
+                },
+                {
+                  "val": "\u003cmonth\u003e",
+                  "offset": 127
+                },
+                {
+                  "val": "\u003cyear\u003e",
+                  "offset": 141
+                },
+                {
+                  "val": "\u003cdate\u003e",
+                  "offset": 154
+                },
+                {
+                  "val": "\u003caddress\u003e",
+                  "offset": 167
+                },
+                {
+                  "val": "\u003cques\u003e",
+                  "offset": 183
+                },
+                {
+                  "val": "\u003cans\u003e",
+                  "offset": 196
+                }
+              ],
+              "location": "RegisterDefinition.enters_the_and_and_and_and_and_and_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String,String,String,String,String,String,String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "jesse1",
+                  "jesse",
+                  "doe",
+                  "jesse",
+                  "jesse",
+                  "Male",
+                  "jesse@gmail.com",
+                  "7845894578",
+                  "Sep",
+                  "1995",
+                  "25",
+                  "Washington",
+                  "What is your Birth Place?",
+                  "Washington"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 583297900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Register",
+            "match": {
+              "location": "RegisterDefinition.user_clicks_on_Register()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SmokeTesting"
+          }
+        ]
+      }
+    ],
+    "name": "Registration for TestMeApp",
+    "description": "",
+    "id": "registration-for-testmeapp",
+    "keyword": "Feature",
+    "uri": "features/Register.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTesting"
+      }
+    ]
+  }
+]
